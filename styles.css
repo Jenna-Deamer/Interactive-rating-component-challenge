@@ -12,21 +12,27 @@ main {
 
 }
 
-article {
+section {
+    display: flex;
+    flex-direction: column;
     background-color: #1f2630;
     height: 300px;
-    width: 400px;
+    width: 300px;
     padding: 16px;
-    border-radius: 28px;
+    border-radius: 16px;
 
+}
+
+#starWrapper {
+    background-color: #252e37;
+    border-radius: 100%;
 }
 
 #resultButtonWrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 2em;
-    margin-top: 2em;
-
+    margin-bottom: 1.5em;
+    margin-top: 1em;
 }
 
 #resultButtonWrapper button {
@@ -36,5 +42,14 @@ article {
     width: 40px;
     border-radius: 100%;
     border: none;
-    margin-right: 1em;
+    margin-inline-end: 16px;
+}
+
+#submitBtn {
+    background-color: #fc7613;
+    color: #fff;
+    border-radius: 28px;
+    border: none;
+    height: 38px;
+
 }
